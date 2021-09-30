@@ -1,0 +1,126 @@
+# #L6_MK2SP4RO
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+# st= 1
+# angle = findAngle(0,0,10,10)
+# radius = wheelBase / math.sin(math.radians(abs(maxSteering)))
+# if angle < 0:
+#     st = -1
+#     angle *= -1
+# dis = angle*radius
+# response3= requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle="+str(maxSteering*st))
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,maxSteering*st)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+# dis = 75
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+# print(requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle=0").text)
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,0)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+#
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+#
+# st= 1
+# angle = findAngle(0,0,9,10)
+# radius = wheelBase / math.sin(math.radians(abs(maxSteering)))
+# if angle < 0:
+#     st = -1
+#     angle *= -1
+# dis = angle*radius
+# print(math.degrees(angle))
+# response3= requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle="+str(maxSteering*st))
+#
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,maxSteering*st)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+# dis = 30
+# print(requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle=0").text)
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,0)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+#
+# st= 1
+# angle = findAngle(0,0,-6,10)
+# print(math.degrees(angle))
+# radius = wheelBase / math.sin(math.radians(abs(maxSteering)))
+# if angle < 0:
+#     st = -1
+#     angle *= -1
+# dis = angle*radius
+# print(math.degrees(angle))
+# response3= requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle="+str(maxSteering*st))
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,maxSteering*st)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+# dis = 45
+# print(requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle=0").text)
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,0)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+#
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+# st= 1
+# angle = findAngle(0,0,-15,10)
+#
+# radius = wheelBase / math.sin(math.radians(abs(maxSteering)))
+# if angle < 0:
+#     st = -1
+#     angle *= -1
+# dis = angle*radius
+# print(math.degrees(angle))
+# response3= requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle="+str(maxSteering*st))
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,maxSteering*st)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+#
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+# dis = 40
+# print(requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle=0").text)
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,0)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
+
+
+# print(requests.get("https://rover.codingcontest.org/rover/sensor/"+uuid).text,finalX,finalY,prevSteering)
+# dis = 6
+# print(requests.get("https://rover.codingcontest.org/rover/move/"+uuid+"?distance="+str(dis)+"&steeringAngle=14").text)
+# x,y,d = computeCoords(wheelBase,prevSteering,dis,14)
+# finalX += x
+# finalY += y
+# prevSteering += d
+# if prevSteering > 360:
+#     prevSteering -= 360
